@@ -1,0 +1,115 @@
+
+
+
+
+body{
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 15px 30px;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    color: #FFF;
+    font-size: 13px;
+    
+}
+.header--button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.svg{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.header--icon{
+    width: 1.65rem;
+    height: 1.65rem;
+}
+.profile img{
+    border-radius: 999px;
+    width: 32px;
+}
+.google-gorsel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.google-gorsel img{
+    width: 300px;
+    
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:15px;
+}
+.search-area {
+    background-color:transparent;
+    border-radius: 50px;
+    border: 1px solid #9aa09a;
+    width: 550px;
+    height: 35px;
+    background-image: url("/proje13/pngwing.com.png");
+    background-position:15px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+.search-area:hover{
+    background-color: #303134;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   margin-top: 20px;
+   border-radius: 20px;
+}
+.buttons button {
+    background-color: #303134;
+    font-size: 14px;
+    color: #e8eaed;
+    border: 1px solid #303134;
+    height: 36px;
+    padding: 0px 16px;
+}
+footer{
+    background-color: #171717;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+    
+.footer-top{
+    border-bottom: 1px solid #3c4043;
+}
+footer .footer-top h2{
+    color: #9aa09a;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+.footer-bottom{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 30px;
+color: #9aa09a;
+font-size: 14px;
+}
+.footer-bottom ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:blanchedalmond;
+}
+.container{
+    width: 900px;
+    margin:20px auto ;
+    height: auto;
+    border: 2px solid black;
+}
+.bas{
+   padding: 30px;
+}
+.bas h1{
+   font-weight: bold ;
+}
+.bas h3{
+    border: 1px solid orange;
+    border-radius: 5px;
+    background-color: coral;
+    padding: 10px;
+    color: white;
+    width: 350px;
+    margin-top: 10px;
+ }
+ .ust-menu{
+    background-color: gainsboro;
+    height: 40px;
+ }
+ .ust-menu ul li{
+   float: left;
+ }
+.ust-menu ul li a{
+    color: black;
+    font-size: 18px;
+    width:150px;
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+   
+}
+.ust-menu ul li a:hover{
+   color: crimson;
+
+}
+.content{
+   background-color: white;
+   height: 500px;
+}
+.ara{
+   height: 40px;
+   float: right;
+   margin-right: 10px;
+   line-height: 40px;
+}
+ .gonder{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 10px;
+    margin-left: 10px;
+    width: 60px;
+ }
+ .left-content{
+   width: 600px;
+   float: left;
+ }
+ .content .left-content h2{
+    padding-left: 20px;
+    border-bottom: 2px dotted black;
+
+ }
+ .content .left-content .logo{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    float: left;
+ }
+ .content .left-content p{
+    line-height: 30px;
+    font-style: italic;
+    text-align: justify;
+    padding-top: 10px;
+ }
+.right-content{
+   width: 270px;
+   margin-left: 30px;
+   float: left;
+   margin-top: 20px;
+}
+.right-content ul  {
+   margin-top: 20px;
+}
+.right-content  h2{
+   background-color: gray;
+text-align: center;
+}
+.right-content ul li{
+   background-color: wheat;
+   height: 40px;
+   padding-left: 10px;
+   padding-top: 10px;
+   border-bottom: 1px solid black;
+}
